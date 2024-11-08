@@ -1,78 +1,115 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset styling untuk margin dan padding */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.header {
-    background-color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
+
+/* Body dan background */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
 }
-.header img {
-    height: 80px;
+
+/* Styling untuk navbar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparan */
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 100;
 }
-.content {
+
+/* Navbar menu */
+.navbar {
+    list-style-type: none;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
 }
-.content img {
-    max-width: 100%;
-    height: auto;
+
+.navbar li {
+    margin: 0 20px;
 }
-.text-content {
-    max-width: 600px;
-    margin-left: 20px;
-}
-.text-content h1 {
-    font-size: 24px;
-    font-weight: bold;
-}
-.text-content p {
-    font-size: 16px;
-    line-height: 1.5;
-}
-.footer {
-    background-color: #2f4f4f;
-    color: white;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-around;
-}
-.footer div {
-    max-width: 300px;
-}
-.footer h3 {
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
     font-size: 18px;
-    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
-.footer p {
-    font-size: 14px;
-    line-height: 1.5;
+
+.navbar a:hover {
+    color: #ff6347;
+    transform: scale(1.1);
 }
-.footer a {
-    color: white;
-    text-decoration: none;
+
+/* Styling untuk konten */
+.content {
+    margin: 100px auto;
+    padding: 50px;
+    max-width: 900px;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparan */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards; /* Animasi muncul */
 }
-.footer a:hover {
-    text-decoration: underline;
-}
-.footer .social-icons {
-    display: flex;
-    gap: 10px;
-}
-.footer .social-icons a {
-    color: white;
-    font-size: 20px;
-}
-.contact-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+
+.content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
     text-align: center;
-    display: inline-block;
-    margin: 20px 0;
-    text-decoration: none;
-    border-radius: 5px;
+}
+
+.content p {
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: justify;
+    opacity: 0;
+    animation: fadeIn 2s forwards 0.5s; /* Animasi teks muncul dengan delay */
+}
+
+/* Animasi untuk konten */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Efek smooth scroll ketika menu di-klik */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsif: Menyesuaikan dengan ukuran layar kecil */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .content {
+        padding: 30px;
+        margin: 50px 20px;
+    }
 }
