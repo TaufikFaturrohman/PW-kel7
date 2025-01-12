@@ -3,7 +3,7 @@
 @section('content')
 <section style="margin-top:100px">
 <div class="container py-5">
-    <h3 class="fw-bold mb-3">Tentang STT CIPASUNG</h3>
+    <h3 class="fw-bold mb-3 text-center">Tentang STT CIPASUNG</h3>
     <div class="col-lg-6">
         <img src="{{ ('images/sttc.jpg') }}" height="400px" width="600px" alt="">
         <div class="d-flex mb-3">

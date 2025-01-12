@@ -25,3 +25,7 @@ Route::get('/dashboard',[DashboardController::class,'index'])->name('dashboard')
 Route::get('/profil', function () {
     return view('form.profile');
 });
+
+Route::get('/prodi', function () {
+    return view('form.prodi');
+});

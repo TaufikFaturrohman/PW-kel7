@@ -21,7 +21,7 @@
             <a class="nav-link active" href="#">Prestasi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Prodi</a>
+            <a class="nav-link active" href="prodi">Prodi</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">Kontak</a>
