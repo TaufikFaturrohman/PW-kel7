@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", serif;
+}
+/*button*/
+.btn-danger{
+    background-color: #bd0001;
+    border-radius: 15px;
+    border-color: #bd0001;
+    padding: 15px 30px;
+    color: white;
+}
+
+.btn-outline-danger{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #bd0001;
+    padding: 10px 45px;
+    color: #bd0001;
+}
+/*navbar*/
+.nav-item .nav-link{
+    font-size: 18p;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.scroll-nav-active {
+    background-color: rgb(244, 247, 243);
+    border-bottom: 1px solid #bd0001;
+    box-shadow: 1px 1px 11px rgba(1, 1, 1, 0.08);
+}
+.text-nav-active{
+    color: dangger;
+}
+
+#hero {
+    background-image: url('../images/bg-sttc copy.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin: 0;
+}
+
+.hero-title {
+    padding-top: 250px;
+}
+
+.hero-text{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+/* responsive layar kecil */
+@media screen and (min-width: 450px){
+    .hero-text{
+        font-size: 66px;
+        font-weight: 600;
+    }
+}
+/* responsive layar kecil */
+@media screen and (min-width: 550px){
+    .hero-text{
+        font-size: 66px;
+        font-weight: 600;
+    }
+}
+/* responsive layar kecil */
+@media screen and (min-width: 800px){
+    .hero-text{
+        font-size: 66px;
+        font-weight: 600;
+    }
+}
+    
+
+.stripe {
+    height: 5px;
+    width: 40px;
+    background-color: #bd0001;
+}
+
+/* .section-foto {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax {
+    background-image: url('images/background-pes');
+
+}
+.stripe-putih {
+    height: 5px;
+    width: 40px;
+    background-color: #ffffff;
+} */
