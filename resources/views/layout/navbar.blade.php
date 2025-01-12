@@ -12,7 +12,7 @@
             <a class="nav-link active" aria-current="page" href="#">Beranda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Profil</a>
+            <a class="nav-link active" href="profil">Profil</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">Berita</a>
@@ -26,7 +26,19 @@
           <li class="nav-item">
             <a class="nav-link active" href="#">Kontak</a>
           </li>
+          <div class="dropdown">
+            <a class="btn btn- dropdown-toggle" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
+              Fasilitas
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Mesjid</a></li>
+              <li><a class="dropdown-item" href="#"></a>Perpustakaan</li>
+              <li><a class="dropdown-item" href="#">Labkomputer</a></li>
+            </ul>
+          </div>
         </ul>
+     
         <div class="d-flex">
           <button class="btn btn-outline-danger">Register</button>
         </div>
