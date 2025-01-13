@@ -9,22 +9,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            <a class="nav-link active" aria-current="page" href="/">Beranda</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="profil">Profil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Berita</a>
+            <a class="nav-link active" href="berita">Berita</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="prestasi">Prestasi</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="prodi">Prodi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Kontak</a>
           </li>
           <div class="dropdown">
             <a class="btn btn- dropdown-toggle" href=""  data-bs-toggle="dropdown" aria-expanded="false">
@@ -33,7 +30,7 @@
           
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="mesjid">Mesjid</a></li>
-              <li><a class="dropdown-item" href="#">Labkomputer</a></li>
+              <li><a class="dropdown-item" href="labkom">Labkomputer</a></li>
             </ul>
           </div>
         </ul>

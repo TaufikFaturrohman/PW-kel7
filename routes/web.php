@@ -40,3 +40,7 @@ Route::get('/mesjid', function () {
     return view('form.mesjid');
 });
 
+Route::get('/labkom', function () {
+    return view('form.labkom');
+});
+
