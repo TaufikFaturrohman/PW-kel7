@@ -22,6 +22,9 @@ Route::post('/logout',[AuthController::class,'destroy'])->name('logout');
 Route::get('/dashboard',[DashboardController::class,'index'])->name('dashboard')->middleware('auth');
 
 // Route::get('/mahasiswa',[MahasiswaController::class,'mahasiswa']);
+
+
+// nav
 Route::get('/profil', function () {
     return view('form.profile');
 });
@@ -29,3 +32,11 @@ Route::get('/profil', function () {
 Route::get('/prodi', function () {
     return view('form.prodi');
 });
+
+Route::get('/prestasi', function () {
+    return view('form.prestasi');
+});
+Route::get('/mesjid', function () {
+    return view('form.mesjid');
+});
+
