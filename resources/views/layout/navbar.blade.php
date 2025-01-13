@@ -31,6 +31,7 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="mesjid">Mesjid</a></li>
               <li><a class="dropdown-item" href="labkom">Labkomputer</a></li>
+              <li><a class="dropdown-item" href="visimisi">Visi-Misi</a></li>
             </ul>
           </div>
         </ul>

@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MahasiswaController;
+use App\Http\Controllers\RegistrationController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -43,4 +44,13 @@ Route::get('/mesjid', function () {
 Route::get('/labkom', function () {
     return view('form.labkom');
 });
+
+Route::get('/visimisi', function () {
+    return view('form.visi-misi');
+});
+
+// daftar
+
+Route::get('/pendaftaran', [RegistrationController::class, 'create'])->name('form.form-daftar');
+Route::post('/pendaftaran', [RegistrationController::class, 'store'])->name('form.create');
 

@@ -101,6 +101,7 @@
                     <div class="stripe me-2"></div>
                         <h5>Daftar Mahasiswa Baru</h5>
                 </div>
+                {{-- <form action="{{ route('pendaftaran.create') }}" method="POST"> --}}
                 <h1 class="fw-bold mb-2">STT CIPASUNG   </h1>
                 <p class="mb-3">Sekolah Tinggi Teknologi Cipasung (STT Cipasung) didirikan tahun 1997 dengan bantuan dan arahan dari tim Institut Teknologi Bandung. Sekolah tinggi ini didirikan untuk menjawab tantangan penyediaan tenaga ahli profesional dalam bidang keteknikan yang dibutuhkan oleh masyarakat.</p>
                 <button class="btn btn-outline-danger">Daftar sekarang</button>
@@ -111,7 +112,7 @@
         </div>
     </div>
 </section>
-
+</form>
 
 @endsection
 
