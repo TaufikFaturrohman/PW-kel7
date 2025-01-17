@@ -31,7 +31,7 @@
                         <h5 class="fw-bold mb-3">Navigasi</h5>
                         <div class="d-flex">
                             <ul class="nav flex-column me-5">
-                                <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">
+                                <li class="nav-item mb-2"><a href="berita" class="nav-link p-0 text-muted">
                                     Berita Kampus</a>
                                 </li>
                                 <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">
@@ -66,11 +66,11 @@
                         <div class="d-flex mb-3">
                             <a href="
 https://www.youtube.com/channel/UCfMqh9VkAU2q_C-fPNKksiQ" target="_blank" class="text-decoration-none text-dark" >
-                            <img src="{{ ('icon/icon-yt.png') }}" height="30" width="30" class="me-4" alt=""></a>
+                            <img src="{{ asset('icon/icon-yt.png') }}" height="30" width="30" class="me-4" alt=""></a>
                             <a href="https://www.facebook.com/sttcipasung/?locale=id_ID" target="_blank" class="text-decoration-none text-dark" >
-                            <img src="{{ ('icon/icon-fb.png') }}" height="30" width="30" class="me-4" alt=""></a>
+                            <img src="{{ asset('icon/icon-fb.png') }}" height="30" width="30" class="me-4" alt=""></a>
                             <a href="https://www.instagram.com/sttcipasung_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="text-decoration-none text-dark" >
-                            <img src="{{ ('icon/icon-ig.webp') }}" height="30" width="30" class="me-4" alt=""></a>
+                            <img src="{{ asset('icon/icon-ig.webp') }}" height="30" width="30" class="me-4" alt=""></a>
                         </div>
                   </div>
                   {{-- kol 3 kontak --}}

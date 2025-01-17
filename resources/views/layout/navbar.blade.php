@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-secondary py-3 fixed-top {{ Request::segment(1) == '' ? '' : 'bg-white shadow' }}">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
-      <img src="{{ ('images/logosttc2.png') }}" alt="" height="40" width="40">
+      <img src="{{ asset('images/logosttc2.png') }}" alt="" height="40" width="40">
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -12,16 +12,16 @@
             <a class="nav-link active" aria-current="page" href="/">Beranda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="profil">Profil</a>
+            <a class="nav-link active" href="{{ url('/profil') }}">Profil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="berita">Berita</a>
+            <a class="nav-link active" href="{{ url('/berita') }}">Berita</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="prestasi">Prestasi</a>
+            <a class="nav-link active" href="{{ url('/prestasi') }}">Prestasi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="prodi">Prodi</a>
+            <a class="nav-link active" href="{{ url('/prodi') }}">Prodi</a>
           </li>
           <div class="dropdown">
             <a class="btn btn- dropdown-toggle" href=""  data-bs-toggle="dropdown" aria-expanded="false">
