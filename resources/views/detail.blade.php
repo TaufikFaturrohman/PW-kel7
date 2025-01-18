@@ -11,7 +11,7 @@
                 <div class="col-lg-8 mx-auto">
                     <img src="{{ asset('storage/berita/' . $berita->gambar) }}" class="img-fluid mb-4" alt="{{ $berita->judul }}">
                     <div class="konten-detail">
-                        <p class="text-secondary">{!! $berita->konten !!}</p>
+                        <p class="text-secondary text-justify">{!! $berita->konten !!}</p>
                     </div>
                 </div>
             </div>

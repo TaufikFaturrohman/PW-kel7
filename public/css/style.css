@@ -83,6 +83,9 @@ body {
     background-color: #bd0001;
 }
 
+.text-justify {
+    text-align: justify;
+}
 /* .section-foto {
     background-attachment: fixed;
     background-position: top;
